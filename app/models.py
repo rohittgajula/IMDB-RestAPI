@@ -3,6 +3,10 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 
 from django.contrib.auth.models import User
 
+# ---------------------------------------
+#  PAGINATION PART NEEDS TO BE DONE
+# ---------------------------------------
+
 class StreamPlatform(models.Model):
     name = models.CharField(max_length=30)
     about = models.CharField(max_length=250)
