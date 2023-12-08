@@ -8,7 +8,6 @@ from rest_framework.exceptions import ValidationError
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.throttling import UserRateThrottle, AnonRateThrottle, ScopedRateThrottle
-
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 
